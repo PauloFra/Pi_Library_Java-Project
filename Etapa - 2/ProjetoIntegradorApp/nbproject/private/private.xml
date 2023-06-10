@@ -3,12 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/GUI/TelaRemocaoLivros.java</file>
             <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/projetointegradorapp/Emprestimo.java</file>
+            <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/GUI/TelaCadastroUsuarios.java</file>
+            <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/GUI/TelaEmprestimoLivros.java</file>
             <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/projetointegradorapp/Livro.java</file>
-            <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/projetointegradorapp/ProjetoIntegradorApp.java</file>
+            <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/GUI/TelaCadastroLivros.java</file>
+            <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/GUI/TelaInicial.java</file>
             <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/projetointegradorapp/Usuario.java</file>
             <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/projetointegradorapp/Biblioteca.java</file>
             <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/projetointegradorapp/QuantidadeLivro.java</file>
+            <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/GUI/TelaDevolucaoLivros.java</file>
+            <file>file:/C:/Users/Windows/Desktop/PI%202/Etapa%20-%202/ProjetoIntegradorApp/src/GUI/TelaRelatorioEmprestimos.java</file>
         </group>
     </open-files>
 </project-private>

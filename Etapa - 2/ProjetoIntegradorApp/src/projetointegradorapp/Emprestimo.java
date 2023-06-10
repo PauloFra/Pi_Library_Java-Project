@@ -20,16 +20,23 @@ public class Emprestimo {
     private Date dataDevolucaoPrevista;
     private Date dataDevolucaoEfetiva;
     private Biblioteca biblioteca;
-
+    private boolean devolvido;
     
     // Construtor
-    public Emprestimo(Livro livro, Usuario usuario, Date dataEmprestimo, Date dataDevolucaoPrevista, Biblioteca biblioteca) {
+    public Emprestimo(Livro livro, Usuario usuario, Date dataEmprestimo, Date dataDevolucaoPrevista, Biblioteca biblioteca, boolean devolvido) {
         this.livro = livro;
         this.usuario = usuario;
         this.dataEmprestimo = dataEmprestimo;
         this.dataDevolucaoPrevista = dataDevolucaoPrevista;
         this.biblioteca = biblioteca;
+         this.devolvido = devolvido;
 
+    }
+public void devolverLivro() {
+    this.devolvido = true; // Atualiza o status do empréstimo para devolvido
+}
+    Emprestimo(Usuario usuario, Livro livro, Date dataDevolucao) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
     // Getters e Setters
@@ -76,7 +83,9 @@ public class Emprestimo {
     public Biblioteca getBiblioteca() {
         return biblioteca;
     }
-    
+    public boolean isAtrasado() {
+     return estaAtrasado() && !devolvido;
+}
     public void setBiblioteca(Biblioteca biblioteca) {
         this.biblioteca = biblioteca;
     }
